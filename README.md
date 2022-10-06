@@ -26,6 +26,8 @@ docker run -it -p 6587:6587/udp -p 6587:6587 \
 antimodes201/craftopia-server:latest
 ```
  
+You will need to run the server once and then stop it in order to create the default server ServerSettings.ini.  Edit this to your requirements and restart the container.
+  
 If you would like to run an expirmental beta version use the build environmentl setting
  
 ```
